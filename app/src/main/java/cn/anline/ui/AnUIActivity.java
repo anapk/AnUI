@@ -54,6 +54,7 @@ public class OnClickListener implements View.OnClickListener{
 //    点击监听
     public void setListen(){
         btn_list_1.setOnClickListener(new OnClickListener());
+        btn_grid_1.setOnClickListener(new OnClickListener());
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

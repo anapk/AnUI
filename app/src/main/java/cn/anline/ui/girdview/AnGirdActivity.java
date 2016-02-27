@@ -2,8 +2,11 @@ package cn.anline.ui.girdview;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -49,5 +52,18 @@ public class AnGirdActivity extends Activity {
         }
         SimpleAdapter adapter2 = new SimpleAdapter(this,aGdata,R.layout.gird_item,new String[]{"menu","icon"},new int[]{R.id.text_grid,R.id.image_grid});
         anGrid.setAdapter(adapter2);
+        anGrid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getApplicationContext(), "点击了：" + aMenu[position], Toast.LENGTH_SHORT).show();
+            }
+        });
+        anGrid.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getApplicationContext(),"长按了："+aMenu[position],Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
     }
 }
