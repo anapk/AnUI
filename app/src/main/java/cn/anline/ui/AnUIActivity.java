@@ -15,11 +15,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import cn.anline.ui.girdview.AnGirdActivity;
 import cn.anline.ui.listview.AnListActivity;
 
 public class AnUIActivity extends AppCompatActivity {
 //    初始化元素类
-        Button edit_send,btn_list_1;
+        Button edit_send,btn_list_1,btn_grid_1;
         EditText edit_message;
 
 //    初始化id
@@ -27,6 +28,7 @@ public class AnUIActivity extends AppCompatActivity {
       edit_message =(EditText) findViewById(R.id.edit_message);
         edit_send = (Button) findViewById(R.id.btn_send1);
         btn_list_1 = (Button)findViewById(R.id.btn_list_1);
+        btn_grid_1 = (Button)findViewById(R.id.btn_grid_1);
     }
 
 //    监听单击事件类
@@ -37,6 +39,10 @@ public class OnClickListener implements View.OnClickListener{
             case R.id.btn_list_1:
                 Intent list1 = new Intent(AnUIActivity.this, AnListActivity.class);
                 startActivity(list1);
+                break;
+            case R.id.btn_grid_1:
+                Intent grid1 = new Intent(AnUIActivity.this, AnGirdActivity.class);
+                startActivity(grid1);
                 break;
             default:
                 Toast.makeText(getApplicationContext(),"点击无效",Toast.LENGTH_SHORT).show();

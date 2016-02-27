@@ -27,7 +27,13 @@
         android:orientation="vertical">
         <Button
             android:id="@+id/btn_list_1"
-            android:text="简单"
+            android:text="ListView"
+            android:background="@drawable/btnswitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_grid_1"
+            android:text="GridView"
             android:background="@drawable/btnswitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
