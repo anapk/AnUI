@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AnUI</string>
+    <string name="edit_message">请输入内容</string>
+    <string name="button_send">完成</string>
 </resources>
