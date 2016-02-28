@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".listview.AnListActivity" />
         <activity android:name=".girdview.AnGirdActivity" />
-        <activity android:name=".tabview.TabActivity"></activity>
+        <activity android:name=".tabview.TabActivity" />
+        <activity android:name=".slider.SliderActivity"></activity>
     </application>
 
 </manifest>
