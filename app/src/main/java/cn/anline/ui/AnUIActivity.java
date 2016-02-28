@@ -18,11 +18,12 @@ import android.widget.Toast;
 import cn.anline.ui.girdview.AnGirdActivity;
 import cn.anline.ui.listview.AnListActivity;
 import cn.anline.ui.slider.SliderActivity;
+import cn.anline.ui.sliderdraglistview.SliderDragListActivity;
 import cn.anline.ui.tabview.TabActivity;
 
 public class AnUIActivity extends AppCompatActivity {
 //    初始化元素类
-        Button edit_send,btn_list_1,btn_grid_1,btn_tab_1,btn_slider_1;
+        Button edit_send,btn_list_1,btn_grid_1,btn_tab_1,btn_slider_1,btn_slider_drag_list_1;
         EditText edit_message;
 
 //    初始化id
@@ -33,6 +34,7 @@ public class AnUIActivity extends AppCompatActivity {
       btn_grid_1   = (Button)findViewById(R.id.btn_grid_1);
       btn_tab_1    =  (Button)findViewById(R.id.btn_tab_1);
       btn_slider_1    =  (Button)findViewById(R.id.btn_slider_1);
+      btn_slider_drag_list_1    =  (Button)findViewById(R.id.btn_slider_drag_list_1);
     }
 
 //    监听单击事件类
@@ -56,6 +58,10 @@ public class OnClickListener implements View.OnClickListener{
                 Intent slider1 =new Intent(AnUIActivity.this, SliderActivity.class);
                 startActivity(slider1);
                 break;
+            case R.id.btn_slider_drag_list_1:
+                Intent sliderdraglist  = new Intent(AnUIActivity.this, SliderDragListActivity.class);
+                startActivity(sliderdraglist);
+                break;
             default:
                 Toast.makeText(getApplicationContext(),"点击无效",Toast.LENGTH_SHORT).show();
                 break;
@@ -69,6 +75,7 @@ public class OnClickListener implements View.OnClickListener{
         btn_grid_1.setOnClickListener(new OnClickListener());
         btn_tab_1.setOnClickListener(new OnClickListener());
         btn_slider_1.setOnClickListener(new OnClickListener());
+        btn_slider_drag_list_1.setOnClickListener(new OnClickListener());
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

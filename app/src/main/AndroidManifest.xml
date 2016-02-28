@@ -18,8 +18,14 @@
         <activity android:name=".listview.AnListActivity" />
         <activity android:name=".girdview.AnGirdActivity" />
         <activity android:name=".tabview.TabActivity" />
-        <activity android:name=".slider.SliderActivity"
-            android:theme="@style/AppTheme_NoActionBar"></activity>
+        <activity
+            android:name=".slider.SliderActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity android:name=".sliderdraglistview.SliderDragListActivity"></activity>
+        <activity android:name=".sliderdraglistview.DemoActivity"></activity>
+        <activity android:name=".sliderdraglistview.DifferentActivity"></activity>
+        <activity android:name=".sliderdraglistview.SimpleActivity"></activity>
+        <activity android:name=".sliderdraglistview.NormalActivity"></activity>
     </application>
 
 </manifest>

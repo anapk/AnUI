@@ -2,6 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/slider/fragment" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/sliderdraglistview/DemoActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/sliderdraglistview/DifferentActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/sliderdraglistview/NormalActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/sliderdraglistview/QQ.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/sliderdraglistview/SimpleActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/sliderdraglistview/model" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/cn/anline/ui/yydcdut" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/content_films.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/content_music.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" charset="GBK" />
@@ -16,7 +23,45 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/item_down.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/item_up.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/menu_item_selector.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q1.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q10.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q11.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q12.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q13.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q14.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q15.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q16.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q17.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q18.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q19.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q2.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q20.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q21.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q22.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q23.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q24.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q25.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q26.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q27.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q28.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q29.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q3.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q30.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q31.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q32.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q33.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q34.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q35.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q36.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q37.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q4.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q5.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q6.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q7.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q8.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/q9.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/item_qq.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/menu" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

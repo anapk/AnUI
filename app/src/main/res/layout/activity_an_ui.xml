@@ -54,6 +54,13 @@
             android:background="@drawable/btnswitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_slider_drag_list_1"
+            android:text="SliderAndDragListView"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnswitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
