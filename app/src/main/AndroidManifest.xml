@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".listview.AnListActivity" />
-        <activity android:name=".girdview.AnGirdActivity"></activity>
+        <activity android:name=".girdview.AnGirdActivity" />
+        <activity android:name=".tabview.TabActivity"></activity>
     </application>
 
 </manifest>
