@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import cn.anline.ui.girdview.AnGirdActivity;
 import cn.anline.ui.listview.AnListActivity;
+import cn.anline.ui.microvideo.shortvideo.VideoActivity;
 import cn.anline.ui.slider.SliderActivity;
 import cn.anline.ui.sliderdraglistview.SliderDragListActivity;
 import cn.anline.ui.tabbar.TabBarActivity;
@@ -26,6 +27,7 @@ import cn.anline.ui.wxopen.QRwebActivity;
 public class AnUIActivity extends AppCompatActivity {
 //    初始化元素类
         Button edit_send,btn_list_1,btn_grid_1,btn_tab_1,btn_slider_1,btn_slider_drag_list_1,btn_tab_bar_1,btn_anline_home_1;
+        Button btn_micro_video;
         EditText edit_message;
 
 //    初始化id
@@ -39,6 +41,7 @@ public class AnUIActivity extends AppCompatActivity {
       btn_slider_drag_list_1    =  (Button)findViewById(R.id.btn_slider_drag_list_1);
         btn_tab_bar_1 = (Button)findViewById(R.id.btn_tab_bar_1);
         btn_anline_home_1 = (Button)findViewById(R.id.btn_anline_home);
+        btn_micro_video = (Button)findViewById(R.id.btn_micro_video);
     }
 
 //    监听单击事件类
@@ -74,6 +77,10 @@ public class OnClickListener implements View.OnClickListener{
                 Intent anlinehome1 = new Intent(AnUIActivity.this, QRwebActivity.class);
                 startActivity(anlinehome1);
                 break;
+            case R.id.btn_micro_video:
+                Intent microVideo = new Intent(getApplicationContext(), VideoActivity.class);
+                startActivity(microVideo);
+                break;
             default:
                 Toast.makeText(getApplicationContext(),"点击无效",Toast.LENGTH_SHORT).show();
                 break;
@@ -90,6 +97,7 @@ public class OnClickListener implements View.OnClickListener{
         btn_slider_drag_list_1.setOnClickListener(new OnClickListener());
         btn_tab_bar_1.setOnClickListener(new OnClickListener());
         btn_anline_home_1.setOnClickListener(new OnClickListener());
+        btn_micro_video.setOnClickListener(new OnClickListener());
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

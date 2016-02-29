@@ -49,6 +49,8 @@
         <activity android:name=".tabbar.page.TabBarAppstoreActivity" />
         <activity android:name=".tabbar.page.TabBarIbookActivity" />
         <activity android:name=".tabbar.page.TabBarItunesActivity"></activity>
+        <activity android:name=".microvideo.shortvideo.VideoActivity"></activity>
+        <activity android:name=".microvideo.shortvideo.FirstActivity"></activity>
     </application>
     <supports-screens
         android:anyDensity="true"
@@ -82,4 +84,7 @@
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 </manifest>
