@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/bg_movie_add_shoot"
+        android:background="@drawable/recod_switch"
         android:text="按住拍"
         android:textColor="#ECEBF1"/>
 </LinearLayout>
