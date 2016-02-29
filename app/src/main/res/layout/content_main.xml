@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.anline.ui.wxopen.QRwebActivity"
+    tools:showIn="@layout/activity_web">
+    <LinearLayout
+        android:id="@+id/onWebview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/pink">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_click"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_webview_back" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/wx_logo"
+            android:id="@+id/btn_wx_session" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/wx_pyq"
+            android:id="@+id/btn_wx_timeline" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/qr_code"
+            android:id="@+id/btn_qr_scan" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/voice"
+            android:id="@+id/btn_voice" />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cream"
+            android:id="@+id/btn_face_scan" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/webViewCont"
+        android:layout_below="@+id/onWebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
