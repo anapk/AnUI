@@ -6,6 +6,7 @@ android {
 
     defaultConfig {
         applicationId "cn.anline.ui"
+//        minSdkVersion 7
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1

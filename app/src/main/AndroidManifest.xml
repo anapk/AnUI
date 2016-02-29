@@ -21,11 +21,17 @@
         <activity
             android:name=".slider.SliderActivity"
             android:theme="@style/AppTheme_NoActionBar" />
-        <activity android:name=".sliderdraglistview.SliderDragListActivity"></activity>
-        <activity android:name=".sliderdraglistview.DemoActivity"></activity>
-        <activity android:name=".sliderdraglistview.DifferentActivity"></activity>
-        <activity android:name=".sliderdraglistview.SimpleActivity"></activity>
-        <activity android:name=".sliderdraglistview.NormalActivity"></activity>
+        <activity android:name=".sliderdraglistview.SliderDragListActivity" />
+        <activity android:name=".sliderdraglistview.DemoActivity" />
+        <activity android:name=".sliderdraglistview.DifferentActivity" />
+        <activity android:name=".sliderdraglistview.SimpleActivity" />
+        <activity android:name=".sliderdraglistview.NormalActivity" />
+        <activity android:name=".tabbar.TabBarActivity" />
+        <activity android:name=".tabbar.page.TabBarHomeActivity" />
+        <activity android:name=".tabbar.page.TabBarLauncherActivity" />
+        <activity android:name=".tabbar.page.TabBarAppstoreActivity" />
+        <activity android:name=".tabbar.page.TabBarIbookActivity" />
+        <activity android:name=".tabbar.page.TabBarItunesActivity"></activity>
     </application>
 
 </manifest>
