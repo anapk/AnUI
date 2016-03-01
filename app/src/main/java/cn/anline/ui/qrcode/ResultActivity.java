@@ -14,6 +14,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import cn.anline.ui.R;
+import cn.anline.ui.wxopen.QRwebActivity;
 
 public class ResultActivity extends Activity {
 
@@ -51,7 +52,7 @@ public class ResultActivity extends Activity {
                 Toast.makeText(getApplicationContext(),"扫描结果为链接网址："+result,Toast.LENGTH_SHORT).show();
                 Toast.makeText(getApplicationContext(),"正在为您加载："+result,Toast.LENGTH_SHORT).show();
                 Toast.makeText(getApplicationContext(),"加载速度取决于网络访问速度，请您耐心等候",Toast.LENGTH_LONG).show();
-                Intent rsWeb = new Intent(ResultActivity.this, RsWEBActivity.class);
+                Intent rsWeb = new Intent(ResultActivity.this, QRwebActivity.class);
                 rsWeb.putExtra("QRUrl",result);
                 startActivity(rsWeb);
 //                Uri rsUri = Uri.parse(result);

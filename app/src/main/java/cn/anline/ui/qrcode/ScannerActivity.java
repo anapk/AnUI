@@ -455,3 +455,4 @@ public final class ScannerActivity extends Activity implements SurfaceHolder.Cal
         }
     }
 }
+//二维码扫描入口

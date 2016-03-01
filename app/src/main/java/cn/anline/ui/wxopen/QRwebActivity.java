@@ -60,6 +60,8 @@ public class QRwebActivity extends Activity implements IWXAPIEventHandler {
         api.registerApp(Constants.APP_ID);
         initView();
         setListener();
+        //        closeLevel3();
+        closeLevel2();
 //        if(rsUrlValue!=null){
 //            webView1.loadUrl(rsUrlValue);
 //        }else{
@@ -194,6 +196,44 @@ public class QRwebActivity extends Activity implements IWXAPIEventHandler {
     /**
      * 设置监听事件
      */
+    private void closeLevel3(){
+        //当动画都结束的时候才可以操作
+        if (AnimUtil.animCount != 0) {
+            // 说明有动画在执行
+            return;
+        }
+        if (isShowLevel3) {
+            // 隐藏3级菜单
+            AnimUtil.showOrChoseMenu(level3, 0, false);
+        } else {
+            // 显示3级菜单
+            AnimUtil.showOrChoseMenu(level3, 0, true);
+        }
+        isShowLevel3 = !isShowLevel3;
+    }
+    private void closeLevel2(){
+        //当动画都结束的时候才可以操作
+        if (AnimUtil.animCount != 0) {
+            // 说明有动画在执行
+            return;
+        }
+        if (isShowLevel2) {
+            // 需要隐藏
+            int startOffset = 0;
+            if (isShowLevel3) {
+                AnimUtil.showOrChoseMenu(level3, startOffset, false);
+                startOffset += 200;//因为菜单3先隐藏 所以给菜单200秒的延时
+                isShowLevel3 = false;
+            }
+
+            AnimUtil.showOrChoseMenu(level2, startOffset, false);
+        } else {
+            // 需要显示
+            // Log.e(tag, "执行显示操作");
+            AnimUtil.showOrChoseMenu(level2, 0, true);
+        }
+        isShowLevel2 = !isShowLevel2;
+    }
     private void setListener() {
         iv_home.setOnClickListener(new OnClickListener());
         iv_menu.setOnClickListener(new OnClickListener());
@@ -351,6 +391,7 @@ public class QRwebActivity extends Activity implements IWXAPIEventHandler {
         }
 
 //        返回键推出代码
+        /**
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             AlertDialog.Builder builder = new AlertDialog.Builder(QRwebActivity.this);
             builder.setMessage("您要退出安浪创想客户端吗？");
@@ -370,7 +411,9 @@ public class QRwebActivity extends Activity implements IWXAPIEventHandler {
             });
             builder.create().show();
             return true;
-        }//退出代码结束
+        }
+         */
+        //退出代码结束
 
         return super.onKeyDown(keyCode, event);
     }

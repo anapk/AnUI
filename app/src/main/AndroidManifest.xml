@@ -2,56 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.anline.ui">
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".AnUIActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".listview.AnListActivity" />
-        <activity android:name=".girdview.AnGirdActivity" />
-        <activity android:name=".tabview.TabActivity" />
-        <activity
-            android:name=".slider.SliderActivity"
-            android:theme="@style/AppTheme_NoActionBar" />
-        <activity
-            android:name=".wxopen.QRwebActivity"
-            android:theme="@style/AppTheme_NoActionBar" />
-        <activity
-            android:name=".qrcode.RsWEBActivity"
-            android:theme="@style/AppTheme_NoActionBar" />
-        <activity
-            android:name=".qrcode.ScannerActivity"
-            android:theme="@style/AppTheme_NoActionBar" />
-        <activity
-            android:name=".qrcode.MakeQRcodeActivity"
-            android:theme="@style/AppTheme_NoActionBar" />
-        <activity
-            android:name=".qrcode.QRcodeIndexActivity"
-            android:theme="@style/AppTheme_NoActionBar" />
-        <activity android:name=".qrcode.ResultActivity"/>
-        <activity android:name=".qrcode.ResultTextShowActivity"/>
-        <activity android:name=".sliderdraglistview.SliderDragListActivity" />
-        <activity android:name=".sliderdraglistview.DemoActivity" />
-        <activity android:name=".sliderdraglistview.DifferentActivity" />
-        <activity android:name=".sliderdraglistview.SimpleActivity" />
-        <activity android:name=".sliderdraglistview.NormalActivity" />
-        <activity android:name=".tabbar.TabBarActivity" />
-        <activity android:name=".tabbar.page.TabBarHomeActivity" />
-        <activity android:name=".tabbar.page.TabBarLauncherActivity" />
-        <activity android:name=".tabbar.page.TabBarAppstoreActivity" />
-        <activity android:name=".tabbar.page.TabBarIbookActivity" />
-        <activity android:name=".tabbar.page.TabBarItunesActivity"></activity>
-        <activity android:name=".microvideo.shortvideo.VideoActivity"></activity>
-        <activity android:name=".microvideo.shortvideo.FirstActivity"></activity>
-    </application>
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -87,4 +37,57 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AnUIActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".listview.AnListActivity" />
+        <activity android:name=".girdview.AnGirdActivity" />
+        <activity android:name=".tabview.TabActivity" />
+        <activity
+            android:name=".slider.SliderActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name=".wxopen.QRwebActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name=".qrcode.RsWEBActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name=".qrcode.ScannerActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name=".qrcode.MakeQRcodeActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name=".qrcode.QRcodeIndexActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity android:name=".qrcode.ResultActivity" />
+        <activity android:name=".qrcode.ResultTextShowActivity" />
+        <activity android:name=".sliderdraglistview.SliderDragListActivity" />
+        <activity android:name=".sliderdraglistview.DemoActivity" />
+        <activity android:name=".sliderdraglistview.DifferentActivity" />
+        <activity android:name=".sliderdraglistview.SimpleActivity" />
+        <activity android:name=".sliderdraglistview.NormalActivity" />
+        <activity android:name=".tabbar.TabBarActivity" />
+        <activity android:name=".tabbar.page.TabBarHomeActivity" />
+        <activity android:name=".tabbar.page.TabBarLauncherActivity" />
+        <activity android:name=".tabbar.page.TabBarAppstoreActivity" />
+        <activity android:name=".tabbar.page.TabBarIbookActivity" />
+        <activity android:name=".tabbar.page.TabBarItunesActivity" />
+        <activity android:name=".microvideo.shortvideo.VideoActivity" />
+        <activity android:name=".microvideo.shortvideo.FirstActivity" />
+        <activity android:name=".AnUI2Activity"></activity>
+    </application>
+
 </manifest>
