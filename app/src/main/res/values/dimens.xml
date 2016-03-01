@@ -24,5 +24,10 @@
     <dimen name="ConversationItemHeight">58dp</dimen>
     <dimen name="LargeAvatarSize">56dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="common_margin">12.0dip</dimen>
+    <dimen name="common_margin_10">10.0dip</dimen>
+    <dimen name="tag_corner_radius">20.0dip</dimen>
+    <dimen name="tag_horizontal_spacing">8.0dip</dimen>
+    <dimen name="tag_vertical_spacing">6.0dip</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
 </resources>

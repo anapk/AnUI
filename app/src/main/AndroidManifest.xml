@@ -87,7 +87,8 @@
         <activity android:name=".tabbar.page.TabBarItunesActivity" />
         <activity android:name=".microvideo.shortvideo.VideoActivity" />
         <activity android:name=".microvideo.shortvideo.FirstActivity" />
-        <activity android:name=".AnUI2Activity"></activity>
+        <activity android:name=".AnUI2Activity" />
+        <activity android:name=".tagview.TagViewActivity"></activity>
     </application>
 
 </manifest>

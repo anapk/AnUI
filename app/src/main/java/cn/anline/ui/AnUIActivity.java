@@ -32,8 +32,7 @@ public class AnUIActivity extends AppCompatActivity {
 
 //    初始化id
     public void initFindID(){
-      edit_message = (EditText) findViewById(R.id.edit_message);
-      edit_send    = (Button) findViewById(R.id.btn_send1);
+
       btn_list_1   = (Button)findViewById(R.id.btn_list_1);
       btn_grid_1   = (Button)findViewById(R.id.btn_grid_1);
       btn_tab_1    =  (Button)findViewById(R.id.btn_tab_1);
