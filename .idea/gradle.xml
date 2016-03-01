@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/libs" />
+            <option value="$PROJECT_DIR$/umeng-analytics-v5.6.4" />
+            <option value="$PROJECT_DIR$/umeng-update-v2.6.0.1" />
           </set>
         </option>
       </GradleProjectSettings>

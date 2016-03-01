@@ -20,11 +20,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btnswitch"/>
+
     <Button
         android:id="@+id/btn_wpui"
         android:text="WpUIView"
         android:layout_marginTop="5dp"
         android:layout_below="@+id/btn_tagview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnswitch"/>
+    <Button
+        android:id="@+id/btn_browser"
+        android:text="WebBrowser"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btn_wpui"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/btnswitch"/>

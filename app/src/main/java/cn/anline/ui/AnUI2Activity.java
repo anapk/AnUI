@@ -7,11 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import cn.anline.ui.browser.BrowserActivity;
 import cn.anline.ui.tagview.TagViewActivity;
 import cn.anline.ui.wpui.WpUIActivity;
 
 public class AnUI2Activity extends AppCompatActivity {
-    private Button btn_back_first_ui,btn_tagview1,btn_wpuiview1;
+    private Button btn_back_first_ui,btn_tagview1,btn_wpuiview1,btn_browser1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +21,11 @@ public class AnUI2Activity extends AppCompatActivity {
         btn_back_first_ui = (Button)findViewById(R.id.back_first_ui);
         btn_tagview1 = (Button)findViewById(R.id.btn_tagview);
         btn_wpuiview1 = (Button)findViewById(R.id.btn_wpui);
+        btn_browser1 = (Button)findViewById(R.id.btn_browser);
         btn_back_first_ui.setOnClickListener(new OnclickListener());
         btn_tagview1.setOnClickListener(new OnclickListener());
         btn_wpuiview1.setOnClickListener(new OnclickListener());
+        btn_browser1.setOnClickListener(new OnclickListener());
     }
     public class OnclickListener implements View.OnClickListener{
         public void onClick(View v){
@@ -38,6 +41,10 @@ public class AnUI2Activity extends AppCompatActivity {
                 case R.id.back_first_ui:
                     Intent firstUI = new Intent(getApplicationContext(),AnUIActivity.class);
                     startActivity(firstUI);
+                case R.id.btn_browser:
+                    Intent browserInt = new Intent(getApplicationContext(), BrowserActivity.class);
+                    startActivity(browserInt);
+                    break;
                 default:
                     Toast.makeText(getApplicationContext(),"点击无效",Toast.LENGTH_SHORT).show();
                     break;

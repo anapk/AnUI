@@ -23,7 +23,8 @@
                 android:layout_width="108dp"
                 android:layout_height="108dp"
                 android:background="#FF7F24"
-                android:id="@+id/btn_wp_001">
+                android:id="@+id/btn_wp_001"
+                android:orientation="horizontal">
             </LinearLayout>
 
             <LinearLayout
@@ -31,7 +32,8 @@
                 android:layout_height="108dp"
                 android:layout_marginLeft="5dp"
                 android:background="#FF7F24"
-                android:id="@+id/btn_wp_002">
+                android:id="@+id/btn_wp_002"
+                android:orientation="vertical">
             </LinearLayout>
         </LinearLayout>
 
@@ -45,7 +47,8 @@
                 android:layout_width="108dp"
                 android:layout_height="108dp"
                 android:background="#3399ff"
-                android:id="@+id/btn_wp_003">
+                android:id="@+id/btn_wp_003"
+                android:orientation="vertical">
             </LinearLayout>
 
             <LinearLayout
@@ -53,7 +56,8 @@
                 android:layout_height="108dp"
                 android:layout_marginLeft="5dp"
                 android:background="#3399ff"
-                android:id="@+id/btn_wp_004">
+                android:id="@+id/btn_wp_004"
+                android:orientation="horizontal">
             </LinearLayout>
         </LinearLayout>
 
@@ -67,7 +71,8 @@
                 android:layout_width="108dp"
                 android:layout_height="108dp"
                 android:background="#3399ff"
-                android:id="@+id/btn_wp_005">
+                android:id="@+id/btn_wp_005"
+                android:orientation="horizontal">
             </LinearLayout>
 
             <LinearLayout
@@ -75,7 +80,8 @@
                 android:layout_height="108dp"
                 android:layout_marginLeft="5dp"
                 android:background="#3399ff"
-                android:id="@+id/btn_wp_006">
+                android:id="@+id/btn_wp_006"
+                android:orientation="horizontal">
             </LinearLayout>
         </LinearLayout>
 
@@ -89,7 +95,8 @@
                 android:layout_width="108dp"
                 android:layout_height="108dp"
                 android:background="#953399ff"
-                android:id="@+id/btn_wp_007">
+                android:id="@+id/btn_wp_007"
+                android:orientation="vertical">
             </LinearLayout>
 
             <LinearLayout
@@ -97,7 +104,8 @@
                 android:layout_height="108dp"
                 android:layout_marginLeft="5dp"
                 android:background="#953399ff"
-                android:id="@+id/btn_wp_008">
+                android:id="@+id/btn_wp_008"
+                android:orientation="horizontal">
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

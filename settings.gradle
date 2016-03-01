@@ -1,1 +1,1 @@
-include ':app',':libs'
+include ':app', ':libs', ':umeng-analytics-v5.6.4', ':umeng-update-v2.6.0.1'

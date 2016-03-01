@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/AnUI.iml" filepath="$PROJECT_DIR$/AnUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/libs/libs.iml" filepath="$PROJECT_DIR$/libs/libs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umeng-analytics-v5.6.4/umeng-analytics-v5.6.4.iml" filepath="$PROJECT_DIR$/umeng-analytics-v5.6.4/umeng-analytics-v5.6.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umeng-update-v2.6.0.1/umeng-update-v2.6.0.1.iml" filepath="$PROJECT_DIR$/umeng-update-v2.6.0.1/umeng-update-v2.6.0.1.iml" />
     </modules>
   </component>
 </project>
