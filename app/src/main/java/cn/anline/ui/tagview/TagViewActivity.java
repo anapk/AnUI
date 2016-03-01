@@ -55,7 +55,7 @@ public class TagViewActivity extends Activity {
             @Override
             public void onDelClick(TextView textView, Tag tag) {
                 // TODO Auto-generated method stub
-                Toast.makeText(MainActivity.this, "删除" + tag.getTitle(),
+                Toast.makeText(getApplicationContext(), "删除" + tag.getTitle(),
                         Toast.LENGTH_LONG).show();
             }
         });

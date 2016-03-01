@@ -88,7 +88,8 @@
         <activity android:name=".microvideo.shortvideo.VideoActivity" />
         <activity android:name=".microvideo.shortvideo.FirstActivity" />
         <activity android:name=".AnUI2Activity" />
-        <activity android:name=".tagview.TagViewActivity"></activity>
+        <activity android:name=".tagview.TagViewActivity" />
+        <activity android:name=".wpui.WpUIActivity"></activity>
     </application>
 
 </manifest>
