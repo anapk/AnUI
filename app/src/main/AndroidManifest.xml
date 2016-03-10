@@ -89,7 +89,8 @@
         <activity android:name=".AnUI2Activity" />
         <activity android:name=".tagview.TagViewActivity" />
         <activity android:name=".wpui.WpUIActivity" />
-        <activity android:name=".browser.BrowserActivity"></activity>
+        <activity android:name=".browser.BrowserActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity"></activity>
     </application>
 
 </manifest>
