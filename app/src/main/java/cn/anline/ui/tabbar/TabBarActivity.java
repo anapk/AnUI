@@ -8,10 +8,12 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 import cn.anline.ui.R;
+import cn.anline.ui.tabbar.page.TabBarAppstoreActivity;
 
 @SuppressWarnings("deprecation")
 public class TabBarActivity extends Activity {
@@ -79,6 +81,9 @@ public class TabBarActivity extends Activity {
             }
         };
         mTabPager.setAdapter(mPagerAdapter);
+
+
+        //内页控件监听
     }
 
     /**
@@ -131,6 +136,13 @@ public class TabBarActivity extends Activity {
                 }
                 case 1:
                 {
+                    ImageView img1 = (ImageView) findViewById(R.id.imageView2);
+                    img1.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Toast.makeText(getApplicationContext(),"图片被点击了",Toast.LENGTH_LONG).show();
+                        }
+                    });
                     mTabAppstore.setImageDrawable(getResources().getDrawable(R.drawable.tab_appstore_press));
                     if (currIndex == 0)
                     {
@@ -228,7 +240,6 @@ public class TabBarActivity extends Activity {
 
         }
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
